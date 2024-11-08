@@ -1,0 +1,98 @@
+*{
+    padding: 0%;
+    margin: auto;
+}
+
+body{
+    text-align: center;
+    background-color: #ECF0F1;
+}
+
+body h1{
+    color: #9B59B6;
+    user-select: none;
+    font-weight: bold;
+    letter-spacing: 5px;
+    font-size: 32px;
+    text-decoration: underline;
+
+}
+
+
+.infoLateral{
+    user-select: none;
+    width: 200px;
+    position: fixed;
+    background-color: #2C3E50;
+    height: 100%;
+    top: 0;
+}
+
+.infoLateral:hover{
+    animation: 1s animarInfo ease-in forwards;
+}
+
+@keyframes animarInfo {
+    from{width: 200px;}
+    to{width: 30%;}
+}
+
+.infoLateral ul{
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+}
+
+.infoLateral ul li{
+    margin-top: 10px;
+    margin-bottom: 15px;
+    color: #ECF0F1;
+    border: 2px solid  #34495E;
+    padding: 1rem;
+}
+
+.infoLateral ul li:hover{
+  color: #F1C40F;
+  border-color: #E74C3C;
+}
+
+ul a{
+    text-decoration: none;
+    color: #9B59B6;
+}
+
+ul a:hover{
+    color: #E74C3C;
+}
+.infoLateral img{
+    margin-top: 20px;
+    width: 100%;
+    height: 200px;
+}
+
+.textoHistoria{
+    user-select: none;
+    margin-top: 2vh;
+    margin-bottom: 5px;
+    font-size: 25px;
+    border: 2px solid #34495E ;
+    width: 60%;
+}
+
+ table tbody tr td{
+    border: 3px solid black;
+    padding: 0.5px;
+}
+
+table{
+    user-select: none;
+    border: 1.5px solid black;
+    text-align: center;
+}
+
+
+.posicionarInfo{
+    width: 80%;
+    position: absolute;
+    right: 10px;
+}
